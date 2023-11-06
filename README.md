@@ -1,2 +1,3 @@
 # Virtual-Assistant
-Virtual assistant using python
+Created my very first virtual assistant using python, am currently adding more features to the original script. 
+
