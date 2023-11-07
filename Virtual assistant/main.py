@@ -44,7 +44,7 @@ def run_lara():
         talk('playing ' + song)
         pywhatkit.playonyt(song)
     elif 'hello laura' in command:
-        talk('Welcome Shia!, how may I help you')
+        talk('Welcome!, how may I help you')
     elif 'can you hear me' in command:
         talk('Yes, I can hear you!')
     elif 'time' in command:
@@ -58,7 +58,7 @@ def run_lara():
     elif 'what is your name' in command:
         talk('My Name is Laura')
     elif 'how are you' in command:
-        talk('I am Well, How can I halp you today Shia?')
+        talk('I am Well, How can I halp you today?')
     elif 'who is' in command:
         people = command.replace('people','')
         info = wikipedia.summary(people, 1)
